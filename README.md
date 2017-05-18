@@ -1,19 +1,19 @@
 # N-puzzle solver
 
-###This is an implementation of search algorithms for solving N-puzzle problem.
+### This is an implementation of search algorithms for solving N-puzzle problem.
 
 
 ## USEAGE
 
 ```$ python3 driver.py <method> <board>```
 
-<method>:
+```<method>```:
 * bfs (Breadth-First Search) 
 * dfs (Depth-First Search) 
 * ast (A-Star Search)
 * ida (IDA-Star Search)
 
-<board>:
+```<board>```:
 3*3 board:
 ```
 0 8 7
@@ -21,7 +21,7 @@
 3 2 1
 ```
 
-### e.g. ```$ python3 driver.py bfs 0,8,7,6,5,4,3,2,1``` will generate an 'output.txt' showing:
+e.g. ```$ python3 driver.py bfs 0,8,7,6,5,4,3,2,1``` will generate an 'output.txt' showing:
 
 ```path_to_goal: ['down', 'right', 'down', 'right', 'up', 'up', 'left', 'down', 'down', 'right', 'up', 'up', 'left', 'down', 'down', 'left', 'up', 'up', 'right', 'down', 'down', 'left', 'up', 'right', 'down', 'right', 'up', 'left', 'up', 'left']
 cost_of_path: 30
