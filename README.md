@@ -38,13 +38,13 @@ max_ram_usage: 66.02734375
 
 ## SCRIPT
 
-*Run
+* Run
 
 ```chmod 700 script```
 
 ```./script```
 
-*Test cases will show:
+* Test cases will show:
 
 ```===========
 Test case:3,1,2,0,4,5,6,7,8
