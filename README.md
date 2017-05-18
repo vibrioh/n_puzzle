@@ -14,7 +14,8 @@
 * ida (IDA-Star Search)
 
 ```<board>```:
-3*3 board:
+
+0,8,7,6,5,4,3,2,1 indicates a 3*3 board:
 ```
 0 8 7
 6 5 4
@@ -140,4 +141,5 @@ ida cmp to ida2.txt
 < max_ram_usage: 0.01953125
 ---
 > running_time: 0.00000000
-> max_ram_usage: 0.00000000```
+> max_ram_usage: 0.00000000
+```
