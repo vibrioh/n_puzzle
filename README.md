@@ -40,9 +40,9 @@ max_ram_usage: 66.02734375
 
 * Run
 
-```chmod 700 script```
+```chmod 700 script.sh```
 
-```./script```
+```./script.sh```
 
 * Test cases will show:
 
